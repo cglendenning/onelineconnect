@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Unity generated files
+*.sln
+*.csproj
+
+# Unity Assets (except OneLine which we want to track)
+Assets/
+!Assets/OneLine/
+!Assets/OneLine/**
+
+# Unity generated directories
+Library/
+Logs/
+Temp/
+UserSettings/
+obj/
+
+# iOS build
+iOSBuild/
+Unity-iPhone/
+
+# Unity packages
+Packages/
+ProjectSettings/
+
+# Crash logs
+mono_crash.*.json 
